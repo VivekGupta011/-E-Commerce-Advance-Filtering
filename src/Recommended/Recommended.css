@@ -1,11 +1,39 @@
-.recommended-flex {
+
+.recommended-container {
   display: flex;
-  margin-left: 20rem;
+  justify-content: flex-end;
+  align-items: center; 
+  padding: 10px 20px;
 }
 
 .recommended-title {
-  margin-left: 20rem;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-size: 20px;
+  margin-right: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.recommended-flex {
+  display: flex;
+  align-items: center;
+}
+
+.sort-dropdown {
+  padding: 5px 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* background-color: #fff; */
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.sort-dropdown:focus {
+  border-color: #007bff; 
+  outline: none; 
+}
+
+.sort-dropdown option {
+  padding: 10px;
 }
